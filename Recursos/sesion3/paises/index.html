@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Países API</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Países API</h1>
+        <button id="btnAll" onclick="buscarPaises('all')">Todos</button>
+        <button id="btnAme" onclick="buscarPaises('region/americas')">America</button>
+        <button id="btnAfr" onclick="buscarPaises('region/africa')">Africa</button>
+        <button id="btnAsi" onclick="buscarPaises('region/asia')">Asia</button>
+        <button id="btnEur" onclick="buscarPaises('region/europe')">Europa</button>
+        <button id="btnOce" onclick="buscarPaises('region/oceania')">Oceania</button>
+        <section id="mostrarpaises">
+
+        </section>
+    </header>
+    <script src="./index.js"></script>
+</body>
+</html>
